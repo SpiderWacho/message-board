@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  background-color: rgb(168, 197, 204);
+}
+
+.title {
+  font-family: 'Alkatra', cursive;
+  width: 100%;
+  text-align: center;
+}
+
+.subtitle {
+  font-family: 'Alkatra', cursive;
+  width: 100%;
+  text-align: center;
+}
+
+.msg-container {
+  width: 70%;
+  border-radius: 5PX;
+  border: 2px black solid;
+  padding: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+
+}
+
+.username {
+  width: 45%;
+  text-align: start;
+
+}
+
+.msg-date {
+  width: 45%;
+  text-align: end;
+  font-weight: bold;
+}
+
+.msg-body {
+  width: 100%;
+  text-align: center;
+}
+
+.link {
+  width: 100%;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 15%;
+}
+
+.label {
+  width: 100%;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.txt-input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid black;
+  width: 90%;
+  transition: all .2s ease-in-out;
+}
+
+.txt-input:focus {
+  outline: none;
+  width: 100%;
+  
+}
+
+.button {
+  margin-top: 5%;
+}
